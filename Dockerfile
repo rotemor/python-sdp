@@ -1,5 +1,5 @@
 FROM python:2.7
-VOLUMES:
+VOLUME:
  - .:/code
 ADD . /code
 WORKDIR /code
